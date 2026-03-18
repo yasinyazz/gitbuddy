@@ -21,7 +21,7 @@ No more memorising commands — just pick from a menu!
 
 1. Clone this repo:
 ```
-   git clone https://github.com/YOUR_USERNAME/gitbuddy.git
+   git clone https://github.com/yasinyazz/gitbuddy.git
    cd gitbuddy
 ```
 
@@ -43,10 +43,8 @@ No more memorising commands — just pick from a menu!
 ## Installation (Ubuntu / Debian)
 
 1. Clone this repo:
-```
-   git clone https://github.com/YOUR_USERNAME/gitbuddy.git
+   git clone https://github.com/yasinyazz/gitbuddy.git
    cd gitbuddy
-```
 
 2. Install pip if you don't have it:
 ```
