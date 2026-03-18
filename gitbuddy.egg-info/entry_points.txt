@@ -1,0 +1,2 @@
+[console_scripts]
+gitbuddy = gitbuddy:main_menu
