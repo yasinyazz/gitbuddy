@@ -23,6 +23,7 @@ def main_menu():
         print("║  4. Switch branch        ║")
         print("║  5. See history          ║")
         print("║  6. Push to remote       ║")
+        print("║  7. Status dashboard     ║")
         print("║  q. Quit                 ║")
         print("╚══════════════════════════╝")
 
@@ -40,6 +41,8 @@ def main_menu():
             history()
         elif choice == '6':
             push()
+        elif choice == '7':
+            status_dashboard()
         elif choice == 'q':
             print("Bye!")
             break
@@ -73,6 +76,16 @@ def switch_branch():
 
 def history():
     run("git log --oneline --graph --all")
+    input("\nPress Enter to go back.")
+
+def status_dashboard():
+    clear()
+    print("── Current branch ──")
+    run("git branch --show-current")
+    print("── Changed files ──")
+    run("git status --short")
+    print("── Last 5 commits ──")
+    run("git log --oneline -5")
     input("\nPress Enter to go back.")
 
 def push():
