@@ -1,3 +1,4 @@
+gitbuddy.py
 setup.py
 gitbuddy.egg-info/PKG-INFO
 gitbuddy.egg-info/SOURCES.txt
